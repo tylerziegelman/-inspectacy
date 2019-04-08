@@ -1,0 +1,39 @@
+.reg-form-wrapper {
+    width: 100%;
+   margin-bottom: 150px;
+}
+
+.form-reg {
+   
+    width: 80%;
+   
+    transform: translate(0%, 0%);
+    /* border-bottom: 2px solid rgba(0,0,0,0.4) */
+    
+    
+}
+ 
+.upload-wrapper {
+    display: flex;
+    
+  justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+   
+}
+
+.clearfix {
+    margin-left: 50%;
+   
+}
+
+.reg-form-btn {
+    width: 50%;
+    margin-left: 16%;
+}
+
+
+
+
+
+

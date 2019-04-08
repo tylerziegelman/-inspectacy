@@ -1,0 +1,18 @@
+/* Things that affect the entire app should go here */
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,500,600,700');
+html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  
+}
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+

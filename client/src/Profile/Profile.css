@@ -1,0 +1,255 @@
+.profile-wrapper {
+    /* display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 50vh 20vh; */
+    width: 100%;
+}
+
+.flex-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.profile-picture, .user-profile-picture {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.request-btn {
+   border: 2px solid black;
+   background:  rgb(34,206,211);
+   color: rgb(0,0,0);
+   height: 45px;
+   font-weight: 900;
+}
+
+.request-btn:hover {
+    transform: scaleX(1.02);
+    border: none;
+    color: white;
+    background: rgb(34,206,211);
+}
+
+.ant-tabs {
+    margin-top: 20px;
+
+}
+
+.ant-tabs-bar{
+    margin-top: 25px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: none;
+}
+.ant-tabs-extra-content{
+   
+}
+.inspector-description {
+    
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    margin-top: 40px;
+    
+    border: none;
+    font-size: 20px;
+}
+
+.inspector-fullname {
+    margin-top: 2%;
+    text-decoration: underline;
+}
+
+.profile-skills-list {
+    
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 300px;
+}
+
+.ant-tabs-ink-bar{
+    background: rgb(34,206,211);
+}
+
+.ant-tabs-nav .ant-tabs-tab {
+    font-weight: 900;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: rgb(34,206,211);
+    
+}
+
+.ant-tabs-nav .ant-tabs-tab:active {
+    color: #333;
+}
+
+/**** user profile styles ****/
+.user-profile-top-container {
+    /* width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; */
+}
+
+.user-profile-pane1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 250px; 
+}
+
+.user-profile-picture {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.user-profile-details {
+    margin: 0 auto;
+    width: 50%; 
+    margin-top: 10%;
+    margin-bottom: 200px;
+}
+
+.user-profile-inspections {
+    margin-top: 10%;
+    
+}
+
+.inspections-lists {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pending-inspections {
+    width: 45%;
+    margin-right: 2%;
+    
+}
+
+.active-inspections {
+    width: 45%;
+    margin-left: 2%;
+}
+
+.pending-inspection a{
+    color: #333;
+    text-decoration: underline;
+
+}
+
+.active-inspection a{
+    color: #333;
+    text-decoration: underline;
+}
+
+.pending-inspection a:hover{
+    color: rgb(34,206,211);
+    text-decoration: underline;
+
+}
+
+.active-inspection a:hover{
+    color: rgb(34,206,211);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******************** */
+/* inner card padding */
+    /* .card{
+    padding: 10%;
+    border-radius: 2px;
+    border: 2px solid '33ab9f'; 
+        */
+
+
+/* this one refers to both key and value pairs */
+.column {
+    /* display: flex;
+    flex-direction: row;
+    float: left;
+    
+    height: auto;
+    font-size: 1.5em; */
+    
+     
+}
+.row{
+    
+}
+/* Just refer to the label side */
+.label{
+    /* text-transform: capitalize;
+    cursor: not-allowed; */
+}
+
+/* for the displayed editable info */
+.myLabelClass{
+    cursor: text;
+    max-width: 100px;
+}
+.myLabelClass:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.myLabelClass:active{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.myLabelClass:focus {
+    border: 2px solid black;
+}
+
+.help {
+    color: #333;
+    margin-left: 20px;
+    text-align: left;
+    
+    font-size: 1.5em;
+}
+
+.fields-with-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+   
+}
+
+.label {
+    text-align: left;
+    width: 250px;
+    font-size: 1.5em;
+}
+
+input.myInputClass {
+    width: 150px;
+}

@@ -1,0 +1,53 @@
+.login-wrapper{
+    margin-top: 50px;
+    text-align: center;
+}
+.login-form {
+  max-width: 60%;
+  display: inline-block;
+  margin-bottom: 150px;
+  border-bottom: 2px solid rgba(0,0,0,0.4);
+  
+}
+.login-form-forgot {
+  float: right;
+  background:none!important;
+  color: #52B1FF;
+  border:none;
+  padding:10,0,0,0!important;
+  font: inherit;
+  cursor: pointer;
+}
+.login-form-button {
+  width: 100%;
+}
+.login-form-register{
+ 
+  color: #52B1FF;
+  border:none;
+ 
+  font: inherit;
+  cursor: pointer;
+}
+
+.login-form-input input {
+  
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 2 0 0px 1000px #f2f2f2 inset;
+}
+
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0px 1000px #f2f2f2 inset;
+}
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+}
+
+input:-internal-autofill-selected {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color: #eee;
+  
+}
+

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo:400,500,600,700|Work+Sans:100,200,300,400,500,600,700,800,900');
+
+
+html {
+    font-family: 'Work Sans'
+}
+
+.main-container {
+    width: 100vw;
+    
+    
+
+    
+}
+
+.inspector-card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: 'Work Sans';
+    
+    height: auto;
+    padding-bottom: 80px;
+    /* border-top: 3px solid rgb(0, 0, 0, 0.7); */
+    /* border-bottom: 2px solid rgb(0, 0, 0, 0.7); */
+    
+}
+
+
+
+.logo-container {
+    width: 100%;
+    
+  }
+  
+  .inspect-logo {
+    background: url("../assets/inspect-icon.svg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    
+  }
+
+  
+
+
+
+.ant-input-search {
+    margin-top: 10%;
+    margin-left:30%;
+    
+}
+
+
+
+.ant-input {
+    
+}
+
+.ant-input[value] {
+    
+}
+
+.ant-input, .ant-input-search-button, .ant-input-group-addon {
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.7)
+}
+
+.ant-input-search-button {
+    
+    background-color: rgb(34,206,211);
+    border-left: none;
+    
+}
+.search-wrapper {
+    width: 30%;
+}
+.ant-input-search-button i {
+    
+    
+    color: rgb(62,50,55);
+    
+}
+
+.ant-input-group .ant-input {
+   
+}
+
+/* map styles */
+.map-and-inspectors {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    
+}
+
+.map-and-inspectors-wrapper {
+    width: 100%;
+    
+    /* background: url('../assets/topography.svg'); */
+    /* background-color: #444; */
+    background-color: #fff;
+    margin-bottom: 170px;
+    border-bottom: 3px solid rgba(0,0,0,0.4)
+}
+.ant-card.ant-card-home {
+   
+    cursor: pointer;
+    align-content: none;
+    
+  
+   
+    
+    
+    
+    min-width: none;
+   
+    margin-top: 2%;
+    margin-left: 2.5%;
+    border: none;
+    border: 1px solid rgba(0,0,0, 0.4); 
+    height: auto;
+    width: 95%;
+    min-width: 30%;
+    box-shadow: none;
+}
+
+.ant-card.ant-card-home:hover {
+    transform: scale(1.04);
+}
+
+.ant-card.ant-card-home:active {
+    transform: scale(0.99)
+}
+
+.inspector-name {
+    color: rgba(0,0,0, 0.7);
+    font-weight: 700;
+    margin-bottom: -10px;
+    width: 80%;
+    text-align: center;
+    float: right;
+}
+
+.inspector-cards-h1{
+    margin-top: 5%;
+    margin-bottom: -3%;
+    margin-right: 12%;
+    color: rgba(0,0,0, 0.7)
+}
+.ant-card-extra button {
+    background-color: #fff;
+    border: none;
+}
+
+.ant-card-extra button:hover {
+    color: rgb(34,206,211);
+}
+
+.ant-card-head {
+    border-bottom: 1px solid rgb(62,50,55);
+    
+}
+.ant-card ul{
+    
+    
+}
+.ant-card li{
+    text-align: row;
+    padding-left: 3px;
+    display: block;
+    float: right;
+}
+
+.location-label, .location-label p {
+    
+}
+
+.inspector-image {
+   
+   
+    background-size: contain; 
+    border: 1px solid #aaa;
+    border-radius: 5%;
+    
+    width: 120px;
+    height: 120px;
+}
+
+.flex-image {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+number {
+    font-weight: bold;
+}
+
+.card-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-styles {
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+  
+ 
+   
+}
+
+.location-ul {
+    width: 150px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+}
+.card-content-column {
+    padding-top: 20px; 
+    
+}
+
+/* .linear-wipe:hover {
+    text-align: center;
+    
+    background: linear-gradient(to right, #333 20%, rgb(34,206,211) 40%, rgba(200,80,100) 60%, #333 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 2s linear infinite;
+    
+    
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  } */
+
+
